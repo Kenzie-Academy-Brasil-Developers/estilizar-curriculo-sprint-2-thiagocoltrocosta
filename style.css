@@ -1,3 +1,10 @@
+html{
+	font-family: Helvetica;
+	background-color: #f3f3f3;
+	font-size: 16px;
+	
+	
+}
 .clear {
 	clear: both;
 }
@@ -10,18 +17,101 @@
 
 #name {
 	float: left;
+	margin-left: 10%;
 }
 
-#contactDetails {
+.li{
+	display:inline-block;
+	
+	padding: 10px;
+	margin-right: 10px;
+}
+.contact {
 	float: right;
+	margin-top: 2.3%;
+	margin-right: 13%;
+	
+	list-style: none;
+}
+h1,h2{
+	font-family: Helvetica;
+	font-size:1.2rem;
+	
 }
 
 .sectionTitle {
 	float: left;
-	width: 25%;
+	width: 16%;
+	color: #cf8a05;
+	display: inline;
+	font-size: 1rem;
+	font-style: italic;
+	
+	margin-left: 12%;
+	font-weight:normal;
+
+}
+.Personal{
+	font-size: 1.2rem;
 }
 
 .sectionContent {
-	float: right;
-	width: 72.5%;
+	float: left;
+	width: 57%;
+	text-align: left;
+	
+	margin-right: 1%;
+	height: 80%;
+	margin-left: 2%;
+}
+
+hr{
+	color: #dedede;
+	border: 1px solid;
+	
+}
+
+.cabeçalho{
+	border: 2px solid;
+	color: #cf8a05;
+	width: 90%;
+}
+
+
+
+#contactDetails{
+	color: #181818;
+	margin-left: 30px;
+}
+
+.subDetails{
+	font-style: italic;
+}
+
+img{
+	border-radius: 50%;
+	margin-left: 80%;
+}
+
+.title1{
+	height: 15px;
+	font-size: 2rem;
+}
+.title2{
+	font-size:1.8rem;
+	font-weight: normal;
+}
+.texto{
+	width: 75%;
+}
+.keySkills{
+	
+	
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	width: 90%;
+	
 }
